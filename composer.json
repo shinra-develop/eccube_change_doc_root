@@ -178,7 +178,7 @@
         "bin-dir": "bin",
         "src-dir": "src/Eccube",
         "config-dir": "app/config/eccube",
-        "public-dir": "."
+        "public-dir": "html"
     },
     "config": {
         "platform": {
