@@ -1,3 +1,7 @@
+<FilesMatch "^composer|^COPYING|^\.env|^\.maintenance|^Procfile|^app\.json|^gulpfile\.js|^package\.json|^package-lock\.json|web\.config|^Dockerfile|^\.editorconfig|\.(ini|lock|dist|git|sh|bak|swp|env|twig|yml|yaml|dockerignore|sample||htaccess|htpasswd|htgroup)$">
+    order allow,deny
+    deny from all
+</FilesMatch>
 
 <IfModule mod_headers.c>
     # クリックジャッキング対策
